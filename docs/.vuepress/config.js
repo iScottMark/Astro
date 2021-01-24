@@ -28,13 +28,22 @@ module.exports = {
     
     // 侧边栏 （又臭又长）
     sidebar: {
-      // 先导
-      '/intro/': [
-      '',
-      'TODO',
-      ],
-      /* ------------ */
-      
+      '/intro/': introSidebarConf(),  // 先导
+      '/learn/': learnSidebarConf(),  // 学习路线
     }
   }
+}
+
+function introSidebarConf() {
+  return [
+    '',
+    'TODO',
+  ];
+}
+
+function learnSidebarConf() {
+  return [
+    '',
+    
+  ];
 }
