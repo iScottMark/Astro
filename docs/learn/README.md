@@ -28,8 +28,9 @@
 
 **推荐资料**
 
-- "Astronomical Spectroscopy: An Introduction to the Atomic and Molecular Physics of Astronomical Spectra" - Jonathan Tennyson [:orange_book: PDF 下载](http://fulviofrisone.com/attachments/article/402/Astronomical%20Spectroscopy%201860945139.pdf)
+- "Astronomical Spectroscopy: An Introduction to the Atomic and Molecular Physics of Astronomical Spectra (1st Edition)" - Jonathan Tennyson [:orange_book: PDF 下载](http://fulviofrisone.com/attachments/article/402/Astronomical%20Spectroscopy%201860945139.pdf)
 - "Astronomical Spectroscopy" - Philip Massey [:orange_book: PDF 下载](https://home.strw.leidenuniv.nl/~franx/technicalresearchinformation/AstronomicalSpectroscopy.pdf)
+- "Astronomical Spectroscopy for Amateurs" - Harrison, K. M. [:orange_book: PDF 下载](https://sci-hub.scihubtw.tw/10.1007/978-1-4419-7239-2)
 
 
 <br></br>
