@@ -30,6 +30,8 @@ module.exports = {
     sidebar: {
       '/intro/': introSidebarConf(),  // 先导
       '/learn/': learnSidebarConf(),  // 学习路线
+      '/spectroscopy/concepts/': conceptsSidebarConf(),
+      '/spectroscopy/spectra_process/': spSidebarConf(),
     }
   }
 }
@@ -45,5 +47,18 @@ function learnSidebarConf() {
   return [
     '',
     
+  ];
+}
+
+function spSidebarConf() {
+  return [
+    '',
+    '1-degrade_resolution',
+  ];
+}
+
+function conceptsSidebarConf() {
+  return [
+    '',
   ];
 }
