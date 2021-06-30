@@ -134,7 +134,7 @@ ascii.write([bereich['WAVE'], convoluted], name, overwrite=True,
 
 ### ③ 降至 LAMOST 光谱的低分辨率
 
-> 实验中用到的分辨率为 50,000 的光谱 ​[:green_book: 下载链接](https://gitee.com/iScottMark/Astro/tree/master/docs/spectroscopy/spectra_process/ap00t5777g44377k1odfnew_50000.spec)
+> 实验中用到的分辨率为 50,000 的光谱 ​[:green_book: 下载链接](https://gitee.com/iScottMark/Astro/raw/master/docs/spectroscopy/spectra_process/ap00t5777g44377k1odfnew_50000.spec)
 
 ```python
 import numpy as np
