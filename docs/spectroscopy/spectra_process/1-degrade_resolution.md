@@ -134,7 +134,7 @@ ascii.write([bereich['WAVE'], convoluted], name, overwrite=True,
 
 ### ③ 降至 LAMOST 光谱的低分辨率
 
-> 实验中用到的分辨率为 50,000 的光谱 ​[:green_book: 下载链接]()
+> 实验中用到的分辨率为 50,000 的光谱 ​[:green_book: 下载链接](https://gitee.com/iScottMark/Astro/tree/master/docs/spectroscopy/spectra_process/ap00t5777g44377k1odfnew_50000.spec)
 
 ```python
 import numpy as np
@@ -175,14 +175,15 @@ if __name__ == '__main__':
 
     # 分别对步长为 0.01 和 0.005 的流量降低分辨率
     flux_001_degrade = conv(origin_flux=flux_001, old_resolution=50000,
-                            new_resolution=7500, step=0.1)
+                            new_resolution=7500, step=0.01)
     flux_0005_degrade = conv(origin_flux=flux_0005, old_resolution=50000,
                              new_resolution=7500, step=0.005)
 
     # 画图
     plt.figure(figsize=(25, 16))
     plt.plot(wave_01, flux_01, 'b-', label='step01')
-    plt.plot(wave_001, flux_001_degrade, 'g-', label='step001')
+    # + 40 偏移，否则步长为 0.01 的绿线会被步长为 0.005 的红线完全覆盖，看不出来
+    plt.plot(wave_001 + 40, flux_001_degrade, 'g-', label='step001')
     plt.plot(wave_0005, flux_0005_degrade, 'r--', label='step0005', alpha=1.0)
     plt.legend()
     plt.show()
